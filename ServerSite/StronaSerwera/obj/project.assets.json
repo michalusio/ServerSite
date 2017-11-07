@@ -12542,11 +12542,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\isals\\Documents\\Visual Studio 2017\\Projects\\StronaSerwera\\StronaSerwera\\StronaSerwera.csproj",
+      "projectUniqueName": "C:\\Users\\isals\\Source\\Repos\\ServerSite\\ServerSite\\StronaSerwera\\StronaSerwera.csproj",
       "projectName": "StronaSerwera",
-      "projectPath": "C:\\Users\\isals\\Documents\\Visual Studio 2017\\Projects\\StronaSerwera\\StronaSerwera\\StronaSerwera.csproj",
+      "projectPath": "C:\\Users\\isals\\Source\\Repos\\ServerSite\\ServerSite\\StronaSerwera\\StronaSerwera.csproj",
       "packagesPath": "C:\\Users\\isals\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\isals\\Documents\\Visual Studio 2017\\Projects\\StronaSerwera\\StronaSerwera\\obj\\",
+      "outputPath": "C:\\Users\\isals\\Source\\Repos\\ServerSite\\ServerSite\\StronaSerwera\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

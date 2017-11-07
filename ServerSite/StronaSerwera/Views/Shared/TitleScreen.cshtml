@@ -1,0 +1,67 @@
+﻿<div id="title-screen" class="noselect" unselectable="on">
+    <div class="title-menu-right joystix">
+        @Html.RouteLink("FORUM", "forum")
+        @Html.RouteLink("SHOP", "shop")
+        @Html.RouteLink("CONTACT", "contact")
+    </div>
+    <div class="title-text-container joystix">
+        <div class="title-text">Factions PVP</div><br/>
+        <div class="title-text title-text-main">Copper-gameserv.ddns.net</div><br/>
+        <div class="title-text"><span id="title-text-online">1/20 online players</span>
+        </div>
+    </div>
+    <div class="title-menu-bottom joystix">
+        @Html.RouteLink("ABOUT", "about")
+        @Html.RouteLink("NEWS", "news")
+        @Html.RouteLink("RULES", "rules")
+        @Html.RouteLink("GALLERY", "gallery")
+    </div>
+    <script>
+        $(document).ready(function() {
+            updateOnline();
+            setInterval(function() {
+                    updateOnline();
+                },
+                2000);
+            $(document).bind('mousewheel DOMMouseScroll',
+                function(event) {
+                    if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
+                        if ($(document).scrollTop() < $("#title-screen").innerHeight() + 16) {
+                            event.preventDefault();
+                            $('html, body').animate({
+                                scrollTop: 0
+                            }, 1000);
+                        }
+                    } else {
+                        if ($(document).scrollTop() < $("#title-screen").innerHeight()) {
+                            event.preventDefault();
+                            $('html, body').animate({
+                                scrollTop: $("#title-screen").innerHeight()
+                            }, 1000);
+                        }
+                    }
+                });
+        });
+
+        function updateOnline() {
+            var onlineSpan = $("#title-text-online");
+            $.get("https://mcapi.ca/query/copper-gameserv.ddns.net/players",
+                function(data) {
+                    if (!data.status) {
+                        onlineSpan.css("color", "red");
+                        onlineSpan.html("The server is offline");
+                    } else {
+                        onlineSpan.css("color", "white");
+                        onlineSpan.html("<span style='color:chartreuse'>" +
+                            data.players.online +
+                            "/" +
+                            data.players.max +
+                            "</span> online players");
+                    }
+                }).fail(function() {
+                onlineSpan.css("color", "red");
+                onlineSpan.html("The server is offline");
+            });
+        }
+    </script>
+</div>
