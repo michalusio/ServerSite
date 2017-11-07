@@ -9,3 +9,14 @@ C:\Users\isals\Source\Repos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcor
 C:\Users\isals\Source\Repos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.AssemblyInfo.cs
 C:\Users\isals\Source\Repos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.dll
 C:\Users\isals\Source\Repos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.pdb
+C:\Users\Kraker\Source\Repos\ServerSite\ServerSite\StronaSerwera\bin\Debug\netcoreapp2.0\StronaSerwera.deps.json
+C:\Users\Kraker\Source\Repos\ServerSite\ServerSite\StronaSerwera\bin\Debug\netcoreapp2.0\StronaSerwera.runtimeconfig.json
+C:\Users\Kraker\Source\Repos\ServerSite\ServerSite\StronaSerwera\bin\Debug\netcoreapp2.0\StronaSerwera.runtimeconfig.dev.json
+C:\Users\Kraker\Source\Repos\ServerSite\ServerSite\StronaSerwera\bin\Debug\netcoreapp2.0\StronaSerwera.dll
+C:\Users\Kraker\Source\Repos\ServerSite\ServerSite\StronaSerwera\bin\Debug\netcoreapp2.0\StronaSerwera.pdb
+C:\Users\Kraker\Source\Repos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.csprojResolveAssemblyReference.cache
+C:\Users\Kraker\Source\Repos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.csproj.CoreCompileInputs.cache
+C:\Users\Kraker\Source\Repos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.AssemblyInfoInputs.cache
+C:\Users\Kraker\Source\Repos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.AssemblyInfo.cs
+C:\Users\Kraker\Source\Repos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.dll
+C:\Users\Kraker\Source\Repos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.pdb

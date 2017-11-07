@@ -1,13 +1,20 @@
 ﻿<div id="title-screen" class="noselect" unselectable="on">
+    <object type="text/html" data="http://copper-gameserv.ddns.net:8123/" style="overflow:hidden;" id="dynmap"></object>
+    <script>
+        $("#dynmap").stop(true, false).animate({ width: 'toggle' }, 350);
+    </script>
     <div class="title-menu-right joystix">
         @Html.RouteLink("FORUM", "forum")
         @Html.RouteLink("SHOP", "shop")
         @Html.RouteLink("CONTACT", "contact")
     </div>
+    <div class="title-menu-left" id="dynmap_button">
+        <img onclick="toggleMap()" src="~/imgs/cool map.png"/>
+    </div>
     <div class="title-text-container joystix">
         <div class="title-text">Factions PVP</div><br/>
         <div class="title-text title-text-main">Copper-gameserv.ddns.net</div><br/>
-        <div class="title-text"><span id="title-text-online">1/20 online players</span>
+        <div class="title-text"><span id="title-text-online"><span style="color:chartreuse">0/40</span> online players</span>
         </div>
     </div>
     <div class="title-menu-bottom joystix">
@@ -27,21 +34,27 @@
                 function(event) {
                     if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
                         if ($(document).scrollTop() < $("#title-screen").innerHeight() + 16) {
-                            event.preventDefault();
-                            $('html, body').animate({
+                            //event.preventDefault();
+                            $('html, body').stop(true, false).animate({
                                 scrollTop: 0
                             }, 1000);
                         }
                     } else {
                         if ($(document).scrollTop() < $("#title-screen").innerHeight()) {
-                            event.preventDefault();
-                            $('html, body').animate({
+                            //event.preventDefault();
+                            $('html, body').stop(true, false).animate({
                                 scrollTop: $("#title-screen").innerHeight()
                             }, 1000);
                         }
                     }
                 });
         });
+
+        function toggleMap() {
+            $("#dynmap").stop(true, false).animate({ width: 'toggle' }, 350);
+                
+
+        }
 
         function updateOnline() {
             var onlineSpan = $("#title-text-online");
