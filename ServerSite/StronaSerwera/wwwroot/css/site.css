@@ -83,10 +83,10 @@ html, body {
 .title-menu-left {
     display: inline-block;
     position: relative;
-    width: 175px;
-    height: 175px;
-    transform: translate(0,calc(-50% + 100px));
-    left: calc(-50% + 100px);
+    width: 45px;
+    height: 45px;
+    transform: translate(0,calc(-50% + 34px));
+    left: calc(-50% + 65px);
 }
 
 
