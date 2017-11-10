@@ -20,3 +20,14 @@ C:\Users\Kraker\Source\Repos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netco
 C:\Users\Kraker\Source\Repos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.AssemblyInfo.cs
 C:\Users\Kraker\Source\Repos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.dll
 C:\Users\Kraker\Source\Repos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.pdb
+D:\GithubRepos\ServerSite\ServerSite\StronaSerwera\bin\Debug\netcoreapp2.0\StronaSerwera.deps.json
+D:\GithubRepos\ServerSite\ServerSite\StronaSerwera\bin\Debug\netcoreapp2.0\StronaSerwera.runtimeconfig.json
+D:\GithubRepos\ServerSite\ServerSite\StronaSerwera\bin\Debug\netcoreapp2.0\StronaSerwera.runtimeconfig.dev.json
+D:\GithubRepos\ServerSite\ServerSite\StronaSerwera\bin\Debug\netcoreapp2.0\StronaSerwera.dll
+D:\GithubRepos\ServerSite\ServerSite\StronaSerwera\bin\Debug\netcoreapp2.0\StronaSerwera.pdb
+D:\GithubRepos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.csprojResolveAssemblyReference.cache
+D:\GithubRepos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.csproj.CoreCompileInputs.cache
+D:\GithubRepos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.AssemblyInfoInputs.cache
+D:\GithubRepos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.AssemblyInfo.cs
+D:\GithubRepos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.dll
+D:\GithubRepos\ServerSite\ServerSite\StronaSerwera\obj\Debug\netcoreapp2.0\StronaSerwera.pdb

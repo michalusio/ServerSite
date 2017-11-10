@@ -33,6 +33,26 @@
     cursor: default;
 }
 
+
+.transparent-panel {
+    background-color: rgb(128, 128, 128);
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.about-text{
+    color: white;
+    font-size:x-large;
+}
+
 html, body {
+    background-image: url("/imgs/BG.png");
+    -ms-background-size: 100% 100%;
+    -ms-background-repeat: no-repeat;
+    -ms-background-position: right top;
+    -ms-background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
     height: 100%;
 }
