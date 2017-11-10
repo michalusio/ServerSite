@@ -81,3 +81,19 @@
     font-size: 6em;
     line-height: 70%;
 }
+
+.back-panel {
+    width: 7%;
+    height: 5%;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: antiquewhite;
+    position: fixed;
+    display: none;
+    top: 5%;
+    left: 92%;
+}
+
+.back-panel:hover {
+    background-color: bisque;
+}
