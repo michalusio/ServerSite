@@ -7,7 +7,7 @@ $(document).ready(function () {
     $(document).bind("mousewheel DOMMouseScroll",
         function(event) {
             if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
-                if ($(document).scrollTop() < $("#title-screen").innerHeight()) {
+                if ($(document).scrollTop() < $("#title-screen").innerHeight()+100) {
                     $("html, body").stop(true, false).animate({
                         scrollTop: 0
                     }, 1000);
